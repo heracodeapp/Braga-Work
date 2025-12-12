@@ -1,0 +1,42 @@
+Quero melhorar meu site mantendo sua identidade visual atual, mas tornando-o mais moderno, atrativo, tecnológico e profissional. Uma das primeiras melhorias será a criação de uma seção clara e detalhada apresentando nossos serviços de desenvolvimento de sites e aplicativos, explicando o processo completo da empresa, incluindo planejamento, desenvolvimento, entrega e suporte, destacando diferenciais e benefícios que os clientes recebem ao contratar a Braga Work.
+
+O site terá um formulário de orçamento dividido em etapas. Na primeira etapa, o cliente informará nome completo, e-mail e número de telefone (WhatsApp). Em seguida, escolherá se deseja desenvolvimento de site ou aplicativo. Na etapa seguinte, o cliente indicará o segmento ou área de atuação do negócio. Em outra etapa, será possível selecionar adicionais opcionais, podendo escolher mais de um entre: pagamento online, sistema de agendamento, painel administrativo e chatbot. O formulário exibirá claramente os valores da manutenção mensal: 15 euros por mês para sites e 20 euros por mês para aplicativos, permitindo ao cliente escolher se deseja contratar essa manutenção. Ao finalizar, será exibida uma mensagem confirmando o recebimento dos dados e informando que entraremos em contato em breve com o orçamento. Sempre que o formulário for preenchido, eu devo receber uma notificação automática no WhatsApp com todas as informações fornecidas pelo cliente.
+
+O site contará com uma seção de pagamento de manutenção, onde o cliente poderá escolher entre manutenção de site ou de aplicativo, com valores já definidos. O pagamento será feito via Stripe, permitindo pagamentos únicos ou assinaturas recorrentes.
+
+O site também terá um sistema de login via Google. Ao criar a conta, o usuário deverá escolher um nome de usuário, que será verificado para garantir que não exista outro usuário com o mesmo nome. Caso o nome já esteja em uso, o sistema solicitará que ele escolha outro. Após o login, se o e-mail for bragawork01@gmail.com
+, será exibido um botão que leva ao painel administrativo. Para qualquer outro e-mail, esse botão não será mostrado.
+
+Todos os dados do site e do painel administrativo, incluindo clientes, códigos de pagamento, pagamentos realizados, assinaturas, avaliações, portfólio, relatórios e gráficos, devem ser armazenados em uma base de dados local, hospedada no servidor da empresa, garantindo controle total sobre as informações e maior segurança, sem depender de serviços externos para armazenamento.
+
+O painel administrativo será a central de controle do sistema. Ele permitirá visualizar todos os clientes que preencheram o formulário, mostrando nome, e-mail, telefone, tipo de serviço, adicionais selecionados e se contrataram manutenção. O painel também permitirá gerenciar o portfólio, incluindo adicionar, editar ou remover projetos, que aparecerão no carrossel do site.
+
+O painel gerenciará as assinaturas mensais integradas à Stripe, exibindo assinaturas ativas, atrasadas e com falha. Cada cliente terá seu histórico completo de pagamentos, incluindo valores, datas, status e data do próximo vencimento.
+
+Será possível exportar relatórios em PDF, tanto individuais quanto gerais, contendo dados do cliente, detalhes de projetos, adicionais, histórico de pagamentos e status das assinaturas.
+
+O painel terá a funcionalidade “Gerar código de pagamento”, permitindo inserir manualmente um valor e gerar um código aleatório de 6 dígitos, que será enviado ao cliente. Na página principal, o botão “Pagamento por código” levará o usuário a uma página onde ele deverá preencher obrigatoriamente um formulário com nome, e-mail e código fornecido. Após validação, o cliente poderá realizar o pagamento via Stripe. Quando o pagamento for concluído, o código será marcado como “utilizado” e será gerado automaticamente um comprovante de pagamento, contendo nome, e-mail, data, valor pago, método de pagamento, número da transação Stripe e código utilizado, podendo ser exportado em PDF.
+
+O painel exibirá gráficos e indicadores de desempenho, mostrando clientes atendidos, faturamento mensal, comparação com o mês anterior, número de assinaturas ativas e atrasadas e receita por serviço. Ao final de cada mês, os dados serão salvos automaticamente na base de dados local, com opção de exportação em PDF, e os gráficos serão zerados para iniciar o acompanhamento do mês seguinte.
+
+O site terá um chatbot chamado BW, que funcionará como suporte 24h. O chatbot será desenvolvido sem IA, com respostas pré-programadas, menus interativos e fluxos de perguntas e respostas sobre todos os temas relacionados à Braga Work, como serviços, manutenção, pagamentos, prazos, portfólio e dúvidas gerais.
+
+Agora, desejo adicionar um toque visual mais futurista ao site:
+nos espaços vazios, ou áreas amplas que hoje estão sem conteúdo, quero inserir hologramas feitos por animações de mini partículas, com efeitos complexos, fluidos e surreais, representando elementos tecnológicos como computadores, circuitos, servidores, dispositivos móveis, redes, estruturas digitais e símbolos tecnológicos em geral.
+
+Esses hologramas devem:
+
+ser altamente detalhados,
+
+apresentar animações suaves e cíclicas,
+
+ter movimentos como dissolução, partículas flutuantes, reconstrução, pulsação e vibração,
+
+transmitir tecnologia avançada e inovação,
+
+funcionar sem pesar o desempenho do site (animações otimizadas).
+
+Os hologramas podem reagir a pequenos movimentos do mouse para criar uma sensação imersiva, mas sem interferir na navegação.
+Além de todas as funcionalidades acima, o site terá um sistema de avaliação de serviços, onde qualquer cliente logado poderá avaliar os serviços da Braga Work, dando de 1 a 5 estrelas e deixando um comentário. Essas avaliações serão registradas na base de dados local e exibidas no painel administrativo, permitindo visualizar notas médias, comentários recentes e tendências de avaliação ao longo do tempo.
+
+Por fim, o site receberá melhorias visuais moderadas, mantendo a identidade original, mas modernizando tipografia, espaçamento, botões, ícones, microanimações e hierarquia visual. A navegação será mais fluida, moderna, profissional e tecnológica, com todos os sistemas integrados e interativos, incluindo login, pagamentos, avaliações, chatbot, hologramas e gráficos.
